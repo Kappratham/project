@@ -4,21 +4,22 @@
 
 body {
   font-family: 'Questrial', sans-serif;
-  margin: 2em;
-  background: #F8F9FA;
-  background-color:burlywood;
+  margin: 1em;
+  background: #2385e7;
+  background-color:lightgrey;
 }
 
 h1 {
   display: flex;
-  color: #212529;
+  color: #e27373;
   justify-content: center;
-  background: #ADB5BD;
+  background: #000000;
   padding: 20px;
   border-bottom: 4px solid #253237;
 }
 
 h2 {
+
   color: #343A40;
   margin-top: 2em; 
 }
@@ -32,15 +33,15 @@ h2 {
 
 
 .answer-choice button {
-  height: 20em;
-  background: white;
+  height: 5em;
+  background: rgb(150, 168, 201);
 }
 
-.answer-choice p {
+.answer-choicep {
   display: flex;
   height: 170px;
   width: 170px;
-  background: white;
+  background: rgb(20, 104, 129);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -48,6 +49,7 @@ h2 {
   font-family: 'Questrial';
 }
 #restart {
+margin-top: 3%;
   background-color: #5c6b73;
   border: none;
   color: white;
